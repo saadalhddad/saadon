@@ -1,0 +1,479 @@
+.img {
+
+    background-image: url(../sharjah-mega-mall-large.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    
+
+}
+.img div p{
+    text-align: center;
+    color: #161612;
+    font-size: 25px;
+    line-height: 40px;
+    background-color: rgba(252, 228, 6, 0.5);
+    border: 0px solid black;
+    border-radius: 50px ;
+    font-family:serif;
+
+
+}
+.img div {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 300px;
+    height: 200px;
+    transition: transform 3s 1s;
+}
+.img div:hover{
+    transform:scale(1.5)
+
+}
+h2{
+    border-radius: 10px 5px 10px 5px;
+    border: 2px solid white;
+    background-color: wheat;
+    border-style: solid;
+    text-align: center;
+    padding: 5px 1px 5px 1px;
+    margin: 5px 1px 5px 1px;
+    
+}
+
+h3{
+    text-align:right;
+}
+
+
+header ul{
+
+    margin-top: 20px;
+}
+
+header ul li{
+
+    width: 20px;
+    height: 20px;
+    padding :10px;
+    list-style-type: none;
+    margin: 10px;
+    /* border-style:solid; */
+    border-radius: 20px 10px 20px 10px;
+    display: inline;
+    z-index: 1;
+}
+
+header ul li>a{
+    text-decoration:double;
+    color: #d2cf28;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Helvetica, sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+
+    position:fixed;
+    z-index: 4;
+}
+
+header ul li >a:hover{
+
+    background-image: url(../Flora-Mall-Istanbul-5.jpg);
+    background-color: aqua;
+   color:  rgb(255, 0, 68);
+    
+
+}
+
+ .boy{
+
+    background-color: rgb(111, 172, 89);
+    text-align: center;
+    border: 2px solid rebeccapurple;
+}
+
+main div {
+
+    text-align: center;
+
+
+
+}
+
+main div b a{
+    color: #080603;
+    text-decoration: double;
+    font-size: large;
+}
+
+main div b a:hover{
+    color: #2614eb;
+    background-color: #2fc00e;
+    text-decoration: double;
+    font-size: large;
+}
+
+#boy a{
+    font-size: 20px;
+    text-decoration: double;
+    color: red;
+
+}
+
+#boy a:hover{
+    text-decoration: double;
+    color: rgb(16, 16, 217);
+    background-color: rgb(22, 184, 190);
+
+}
+
+#boy{
+    font-size: 17px;
+    text-decoration: double;
+
+}
+
+main div a img {
+
+    width: 40%;
+    height: 600px;
+    border: 2px dotted black;
+    border-style:groove;
+    transition: transform 1s ;
+    
+}
+
+main div a img:hover{
+    transform: scale(1.1);
+}
+
+section{
+
+    background-color:rgb(118, 244, 202);
+}
+
+ section form fieldset {
+
+    
+    width:auto;
+    height:auto;
+    color: #010401;
+    padding: 30px;
+    border-radius: 20px 10px 20px 10px;
+    border-color: #2614eb;
+    border-style: double;
+    background-color: rgb(124, 250, 177);
+    
+}
+
+section form fieldset label {
+    display: inline;
+    color: #1c0dbd;
+    padding: 10px 5px 10px 5px;
+    margin: 10px 5px 10px 5px;
+    border: 2px hidden red;
+    font-size: large;
+}
+section form fieldset input {
+    display: inline;
+    color: #1c0dbd;
+    padding: 10px 5px 10px 5px;
+    margin: 10px 5px 10px 5px;
+    border: 2px solid rgb(64, 33, 237);
+    text-decoration: double;
+    width: 250px;
+    height: 25px;
+    background-color: azure;
+    border-radius: 20px 10px 20px 10px;
+}
+
+section form fieldset div button {
+
+    display: inline;
+    width: 100px;
+    height: 50px;
+    margin: 10px 5px 10px 5px;
+    padding: 10px 5px 10px 5px;
+    border-color: #2614eb;
+    border-radius: 13px 5px 15px 10px;
+    border-style:groove;
+    background-color: aquamarine;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+main{
+
+    background-color: rgb(123, 240, 201);
+}
+#clothesb{
+    
+    background-color: rgb(123, 250, 218);
+    padding: 20px 10px 20px 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: large;
+text-align: center;
+}
+
+ #head address,time{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#clothesb footer ul li{
+    display: inline;
+    padding: 20px;
+
+}
+.l{
+    text-align: center;
+    
+}
+header ul{
+    position: fixed;
+}
+
+@media (max-width:700px) {
+    
+    .img {
+
+        background-image: url(../sharjah-mega-mall-large.jpg);
+        background-size: cover;
+        height: 100vh;
+        position: relative;
+        
+    
+    }
+    .img div p{
+        text-align: center;
+        color: #161612;
+        font-size: 25px;
+        line-height: 40px;
+        background-color: rgba(252, 228, 6, 0.5);
+        border: 0px solid black;
+        border-radius: 50px ;
+        font-family:serif;
+    
+    
+    }
+    .img div {
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        width: 200px;
+        height: 100px;
+        transition: transform 3s 1s;
+    }
+    .img div:hover{
+        transform:scale(1.5)
+    
+    }
+    h2{
+        border-radius: 10px 5px 10px 5px;
+        border: 2px solid white;
+        background-color: wheat;
+        border-style: solid;
+        text-align: center;
+        padding: 5px 1px 5px 1px;
+        margin: 5px 1px 5px 1px;
+        
+    }
+    
+    h3{
+        text-align:right;
+    }
+    
+    
+    header ul{
+    
+        margin-top: 20px;
+    }
+    
+    header ul li{
+    
+        width: 20px;
+        height: 20px;
+        padding :10px;
+        list-style-type: none;
+        margin: 10px;
+        /* border-style:solid; */
+        border-radius: 20px 10px 20px 10px;
+        display: inline;
+        z-index: 1;
+    }
+    
+    header ul li>a{
+        text-decoration:double;
+        color: #d2cf28;
+        font-size: 20px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Helvetica, sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    header{
+    
+        position:fixed;
+        z-index: 4;
+    }
+    
+    header ul li >a:hover{
+    
+        background-image: url(../Flora-Mall-Istanbul-5.jpg);
+        background-color: aqua;
+       color:  rgb(255, 0, 68);
+        
+    
+    }
+    
+     .boy{
+    
+        background-color: rgb(111, 172, 89);
+        text-align: center;
+        border: 2px solid rebeccapurple;
+    }
+    
+    main div {
+    
+        text-align: center;
+    
+    
+    
+    }
+    
+    main div b a{
+        color: #080603;
+        text-decoration: double;
+        font-size: large;
+    }
+    
+    main div b a:hover{
+        color: #2614eb;
+        background-color: #2fc00e;
+        text-decoration: double;
+        font-size: large;
+    }
+    
+    #boy a{
+        font-size: 20px;
+        text-decoration: double;
+        color: red;
+    
+    }
+    
+    #boy a:hover{
+        text-decoration: double;
+        color: rgb(16, 16, 217);
+        background-color: rgb(22, 184, 190);
+    
+    }
+    
+    #boy{
+        font-size: 17px;
+        text-decoration: double;
+    
+    }
+    
+    main div a img {
+    
+        width: 30%;
+        height: 250px;
+        border: 2px dotted black;
+        border-style:groove;
+        transition: transform 1s ;
+        
+    }
+    
+    main div a img:hover{
+        transform: scale(1.1);
+    }
+    
+    section{
+    
+        background-color:rgb(118, 244, 202);
+    }
+    
+     section form fieldset {
+    
+        
+        width: 100%;;
+        height:400px;
+        color: #010401;
+        padding: 30px;
+        border-radius: 20px 10px 20px 10px;
+        border-color: #2614eb;
+        border-style: double;
+        background-color: rgb(124, 250, 177);
+        
+    }
+    
+    section form fieldset label {
+        display: inline;
+        color: #1c0dbd;
+        padding: 10px 5px 10px 5px;
+        margin: 10px 5px 10px 5px;
+        border: 2px hidden red;
+        font-size: large;
+    }
+    section form fieldset input {
+        display: inline;
+        color: #1c0dbd;
+        padding: 10px 5px 10px 5px;
+        margin: 5px ;
+        border: 2px solid rgb(64, 33, 237);
+        text-decoration: double;
+        width: 50%;
+        height: 25px;
+        background-color: azure;
+        border-radius: 20px 10px 20px 10px;
+    }
+    
+    section form fieldset div button {
+    
+        display: inline;
+        width: 100px;
+        height: 50px;
+        margin:5px;
+        padding: 10px 5px 10px 5px;
+        border-color: #2614eb;
+        border-radius: 13px 5px 15px 10px;
+        border-style:groove;
+        background-color: aquamarine;
+        font-size: 14px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+        
+    }
+    main{
+    
+        background-color: rgb(123, 240, 201);
+    }
+    #clothesb{
+        
+        background-color: rgb(123, 250, 218);
+        padding: 20px 10px 20px 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
+        width: 100%;
+        text-align: center;
+    }
+    
+     #head address,time{
+        font-size: large;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    #clothesb footer ul li{
+        display: inline;
+        padding: 20px;
+    
+    }
+    .l{
+        text-align: center;
+        
+    }
+    header ul{
+        position: fixed;
+    }   
+}
